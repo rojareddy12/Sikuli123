@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="premabujji  "/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="username" value="pyatarojareddy@gmail.com"/>
+  <test name="ChromeTest(failed)">
+    <parameter name="password" value="premabujji"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="username" value="pyatarojareddy@gmail.com"/>
+    <classes>
+      <class name="Tasks4618.crossBrowsingCode">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testParameterWithXML"/>
+        </methods>
+      </class> <!-- Tasks4618.crossBrowsingCode -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test name="FirefoxTest(failed)">
+    <parameter name="password" value="premabujji  "/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="username" value="pyatarojareddy@gmail.com"/>
+    <classes>
+      <class name="Tasks4618.crossBrowsingCode">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="testParameterWithXML" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tasks4618.crossBrowsingCode -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

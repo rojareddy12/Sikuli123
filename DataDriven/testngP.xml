@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ChromeTest">
+<parameter name="browser" value="Chrome"/>
+<parameter name="username" value="pyatarojareddy@gmail.com" />
+<parameter name="password" value="premabujji" />
+
+ <classes>
+     <class name="Tasks4618.crossBrowsingCode"/>
+   </classes>
+ </test> <!-- Test -->
+ 
+
+ <test name="FirefoxTest">
+
+<parameter name="browser" value="Firefox" />
+
+<parameter name="username" value="pyatarojareddy@gmail.com" />
+<parameter name="password" value="premabujji" />
+
+
+<classes>
+
+<class name="Tasks4618.crossBrowsingCode">
+
+</class>
+
+</classes>
+
+</test>
+</suite> <!-- Suite -->

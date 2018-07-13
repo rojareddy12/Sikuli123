@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45759" started-at="2018-07-13T09:55:02Z" finished-at="2018-07-13T09:55:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45759" started-at="2018-07-13T09:55:02Z" finished-at="2018-07-13T09:55:48Z">
+      <class name="AllPractice2.SikuliPractice2">
+        <test-method status="PASS" signature="sikuli()[pri:0, instance:AllPractice2.SikuliPractice2@7f9a81e8]" name="sikuli" duration-ms="45743" started-at="2018-07-13T15:25:02Z" finished-at="2018-07-13T15:25:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuli -->
+      </class> <!-- AllPractice2.SikuliPractice2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
