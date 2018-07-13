@@ -16,7 +16,7 @@ public class Browser
 	{
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com");
-	    System.out.println("hiii");
+	  
 	}
 	public static void fbemail()
 	{
