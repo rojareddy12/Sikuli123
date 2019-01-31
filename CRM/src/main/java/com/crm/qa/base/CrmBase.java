@@ -20,7 +20,8 @@ public class CrmBase
 		{
 	    prop=new Properties();
 	    FileInputStream fis =new FileInputStream("C:\\STS\\CRM\\src\\main\\java\\com\\crm\\qa\\configuration\\crm.properties");
-		prop.load(fis);	 
+		prop.load(fis);	
+			//Sysout("parijath");
 
 	    }
 	catch(Exception ex)
